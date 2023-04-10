@@ -199,11 +199,11 @@ input:focus {
 
 .form-actions {
     display: flex;
-    /* justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 10px; */
+    padding: 10px;
 }
 
 .active-form form {
@@ -212,4 +212,18 @@ input:focus {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.active-form form .form-actions{
+    display: flex;
+}
+
+.close-btn {
+    background-color: #f0f6fa;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #black;
+    cursor: pointer;
 }
