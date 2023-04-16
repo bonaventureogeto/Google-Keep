@@ -108,6 +108,24 @@ input:focus {
     margin-left: 15px;
 }
 
+.settings-area{
+    display: flex;
+}
+
+input:focus{
+    outline: none;
+}
+
+.logo-area{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    font-size: 1.2rem;
+}
+
+
 /* MAIN SECTION STYLES */
 
 /* SIDEBAR  */
@@ -260,15 +278,33 @@ input:focus {
 }
 
 .note .title {
+    width: 100%;
     font-size: 1.5rem;
     font-weight: 500;
     color: black;
 }
 
 .note .text {
+    width: 100%;
     font-size: 1rem;
     font-weight: 500;
     color: black;
+}
+
+.note-footer .material-symbols-outlined{
+    color: black;
+}
+
+.note .note-footer {
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    justify-content: center;
+}
+.note .check-circle{
+    position: absolute;
+    top: -12px;
+    left: -25px;
 }
 
 
